@@ -1,0 +1,48 @@
+   55  cd ~/
+   56  whoami
+   57  pwd
+   58  mkdir -p {directorio1,directorio2,directorio3}
+   59  vi list1
+   60  sudo yum install nano -y
+   61  nano mylist2
+   62  touch .list3
+   63  mv .list3 .mylist3
+   64  mv {list1,mylist2,.mylist3} directorio1/
+   65  cd directorio1
+   66  ls
+   67  ls -a
+   68  ls list*
+   69  ls *list
+   70  ls ??list?
+   71  ls ~/
+   72  cp .mylist3 mylist4
+   73  rm .mylist3
+   74  rm -rf ../directorio3
+   75  cd ../directorio2
+   76  wget http://www.gutenberg.org/cache/epub/19033/pg19033.txt
+   77  sudo yum install wget -y
+   78  wget http://www.gutenberg.org/cache/epub/19033/pg19033.txt
+   80  less pg19033.txt
+   81  head pg19033.txt
+   82  tail pg19033.txt
+   83  grep -in Alice pg19033.txt
+   84  cat >mylist4
+   85  cat >> mylist4
+   86  cat mylist4
+   87  ls
+   88  cat list1 mylist2>biglist
+   89  cd ../directorio1
+   90  cat list1 mylist2 > biglist
+   91  sort biglist
+   92  sort biglist > ordlist
+   93  who
+   94  who | sort
+   95  who | wc -|
+   96  who | wc -l
+   97  nano myscript
+   98  chmod 700 myscript
+  100  history
+  101  set history=100
+  102  history >> HistorialComandos
+
+9224531
